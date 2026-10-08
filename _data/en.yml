@@ -3,6 +3,11 @@ course:
   subtitle: "Principles of protein architecture and function"
   hero_kicker_text: "Online tutorial"
   slug: "Foundations-of-protein-structure" # should match repo name for GitHub Pages and should be english for consistency across languages
+  image: "//trainingcontent.embl.org/sites/default/files/book-images/Screenshot%202026-02-26%20at%2015.19.41.png"
+
+languages:
+  - code: en
+    name: English
 
 labels:
   time_to_complete_text: "Time to complete"
