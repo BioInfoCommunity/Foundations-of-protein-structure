@@ -6,15 +6,19 @@ Features:
 - Fetches pages from WP REST API (handles pagination)
 - Builds parent->children map
 - Sorts siblings by (menu_order, title)
-- Assigns sequential index to each sibling (1..N) and zero-pads (min width 2)
+- Assigns each sibling an index in steps of 10 (010, 020, ...) and zero-pads (min width 3)
 - Creates directories for pages that have children; parent content goes to index.md
-- Child pages (leaf pages) are saved as prefixed files: 01.slug.md
+- Child pages (leaf pages) are saved as prefixed files: 010-slug.md
 - Converts HTML -> Markdown using markdownify
+- Adds Jekyll front matter (layout + title) to every page
 - Local-only: writes to OUTPUT_DIR
 """
 
+import html
 import requests
 import shutil
+import unicodedata
+from urllib.parse import unquote
 from pathlib import Path
 import markdownify
 import os
@@ -49,15 +53,34 @@ def build_by_parent(pages):
     return by_parent
 
 
+# Greek letters are common in protein structure titles (α-helix, β-sheet)
+GREEK_LETTERS = {
+    "α": "alpha", "β": "beta", "γ": "gamma", "δ": "delta",
+    "ε": "epsilon", "κ": "kappa", "λ": "lambda", "π": "pi",
+}
+
+
 def sanitize_filename(name):
+    # WP slugs are URL-encoded (e.g. %ce%b1 for α); decode and transliterate first
+    name = unquote(name)
+    for letter, spelled in GREEK_LETTERS.items():
+        name = name.replace(letter, spelled)
+    name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
     # keep alnum, space, -, _
     cleaned = "".join(c for c in name if c.isalnum() or c in (" ", "-", "_")).strip()
     return cleaned.replace(" ", "-")
 
 
+def front_matter(title):
+    """Return Jekyll front matter with a YAML-safe single-quoted title."""
+    quoted = title.replace("'", "''")
+    return f"---\nlayout: default\ntitle: '{quoted}'\n---\n\n"
+
+
 def build_index_maps(by_parent):
     """
-    For each parent group, sort children and assign sequential indices.
+    For each parent group, sort children and assign indices in steps of 10
+    (10, 20, 30, ...) so pages can be inserted later without renumbering.
     Returns:
       index_map: { page_id: index_int }
       padding_map: { page_id: width_int }  (width used for zero-padding)
@@ -72,20 +95,20 @@ def build_index_maps(by_parent):
             key=lambda x: (x.get("menu_order", 0), x.get("title", {}).get("rendered", "").lower())
         )
         n = len(sorted_children)
-        width = max(2, len(str(n)))  # min width 2 (e.g., 01.)
+        width = max(3, len(str(n * 10)))  # min width 3 (e.g., 010-)
         for pos, child in enumerate(sorted_children, start=1):
             pid = child["id"]
-            index_map[pid] = pos
+            index_map[pid] = pos * 10
             padding_map[pid] = width
 
     return index_map, padding_map
 
 
 def prefix_for(page_id, index_map, padding_map):
-    """Return prefix like '01.' or '' if not in map."""
+    """Return prefix like '010-' or '' if not in map."""
     if page_id in index_map:
-        width = padding_map.get(page_id, 2)
-        return f"{index_map[page_id]:0{width}d}."
+        width = padding_map.get(page_id, 3)
+        return f"{index_map[page_id]:0{width}d}-"
     return ""
 
 
@@ -97,7 +120,7 @@ def write_page(page, by_parent, index_map, padding_map, base_dir):
     """
     pid = page["id"]
     slug = page.get("slug", f"page-{pid}")
-    title = page.get("title", {}).get("rendered", "").strip()
+    title = html.unescape(page.get("title", {}).get("rendered", "")).strip()
     html_content = page.get("content", {}).get("rendered", "")
     md_content = markdownify.markdownify(html_content, heading_style="ATX")
 
@@ -122,7 +145,7 @@ def write_page(page, by_parent, index_map, padding_map, base_dir):
 
     # Write the markdown file (parent content or leaf content)
     with open(filepath, "w", encoding="utf-8") as f:
-        f.write(f"# {title}\n\n{md_content}")
+        f.write(f"{front_matter(title)}# {title}\n\n{md_content}")
 
     print(f"✅ Created: {filepath}")
 
@@ -155,7 +178,7 @@ def main():
     for page in top_pages:
         write_page(page, by_parent, index_map, padding_map, base_dir)
 
-    print("\n🎉 Export complete. Check the 'exported_pages/' folder.")
+    print(f"\n🎉 Export complete. Pages written to '{base_dir}'.")
 
 
 if __name__ == "__main__":
