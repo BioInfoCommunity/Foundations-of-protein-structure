@@ -1,0 +1,889 @@
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  
+  <title>AlphaFold: A practical guide | EMBL-EBI Training</title>
+	<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.25/css/styles.css" type="text/css">
+
+	<link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css"
+		media="all" />
+	<style>
+	#ebi-hero-background {
+		background-image: url('https://acxngcvroo.cloudimg.io/v7/www.embl.org/files/wp-content/uploads/Online-tutorial.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	</style>
+</head>
+<body class="vf-body">
+	<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+		<span data-protection-message-disable="true"></span>
+		<header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed">
+		</header>
+		<div class="layout-container">
+			<main class="page-content clearfix" role="main">
+				<div class="visually-hidden">
+					<a id="main-content" tabindex="-1">
+					</a>
+				</div>
+
+        <nav>
+          <a href="/AlphaFold-A-practical-guide/en/">English</a> |
+          <a href="/AlphaFold-A-practical-guide/es/">Español</a> |
+          <a href="/AlphaFold-A-practical-guide/pt/">Portuguese</a>
+        </nav>
+				<div class="vf-content">
+					<div>
+						<div id="block-ebi-academy-content--89">
+							<div id="ebi-hero-background" style="">
+								<div class="vf-body">
+									<section class="vf-hero | vf-u-fullbleed" style="background:none;">
+										<div class="vf-hero__content | vf-box | vf-stack vf-stack--400" style="min-width:350px">
+											<p class="vf-hero__kicker" style="text-transform:uppercase">Online tutorial</p>
+											<h2 id="course_title" class="vf-hero__heading">AlphaFold: A practical guide</h2>
+											<p class="vf-hero__subheading">A practical guide</p>
+										</div>
+									</section>
+								</div>
+							</div>
+							<article data-history-node-id="2555" role="article">
+								<div data-history-node-id="2555" role="article">
+									<div class="vf-body published">
+										<div class="vf-u-margin__top--500"></div>
+										<section class="embl-grid">
+											<div class="embl-training__sidebar">
+												<div class="vf-u-margin__top--500"></div>
+												<figure class="vf-figure ebi-academy-book-cover-image">
+
+													<img class="vf-figure__image"
+														src="//trainingcontent.embl.org/sites/default/files/book-images/AlphaFold.png" alt="">
+
+												</figure>
+												<div class="vf-u-margin__top--500"></div>
+												<p class="vf-u-type__text-body--3 vf-u-margin--0">
+													Time to complete: </p>
+												<p class="vf-u-type__text-body--3 vf-u-margin--0">2-3 hours</p>
+												</p>
+												<hr class="vf-divider vf-u-margin__bottom-md">
+												<p class="vf-u-type__text-body--3 vf-u-margin--0 vf-u-margin__bottom--xs">
+													Written by:</p>
+												<div class="vf-u-margin__top--100"></div>
+												<ul class="vf-list vf-list--compact vf-u-margin__bottom-md">
+                            
+                            
+
+                            
+                              <li class="vf-list__item">
+                                
+                                  Paulyna Gabriela Magana Gomez
+                                
+                              </li>
+                            
+                              <li class="vf-list__item">
+                                
+                                  <a class="vf-link vf-link--primary vf-u-type__text-body--3" href="https://www.ebi.ac.uk/training/trainers/oleg-kovalevskiy">
+                                    Oleg Kovalevskiy
+                                  </a>
+                                
+                              </li>
+                            
+                          </ul>
+												
+												
+												
+												<p class="vf-u-type__text-body--3 vf-u-margin--0 vf-u-margin__bottom-md">
+													Last updated: June 2025</p>
+												</p>
+												<div class="vf-u-margin__top--500"></div>
+												<hr class="vf-divider vf-u-margin__bottom-md">
+												<!-- Navigation -->
+                       
+                      
+
+                        <div class="vf-tree" data-vf-js-tree aria-expanded="true" data-vf-js-button-hidden-open-text="Open Tree" data-vf-js-button-hidden-close-text="Close Tree">
+  						<div class="vf-tree__inner">
+	                        <ul class="vf-tree__list vf-tree__list--1 | vf-list" aria-role="tree">
+	
+	                          <!-- Course overview -->
+	                          <li class="vf-tree__item">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/">
+	                              AlphaFold: A practical guide
+	                            </a>
+	                          </li>
+	                        <!--  -->
+	                        
+	                        
+	
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/introduction/">
+	                             Introduction
+									
+	                            </a>
+	
+	                            
+	
+	                          </li>
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/">
+	                             Fundamentals Of Protein Composition
+									
+										<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+							            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+							              Open Tree
+							            </p>
+							            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+							            </svg>
+							          </button>
+									
+	                            </a>
+	
+	                            
+	                              <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--2 | vf-list" aria-role="group">
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-central-dogma-from-information-to-action/">
+	                                      The Central Dogma From Information To Action
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-building-blocks-amino-acids/">
+	                                      The Building Blocks Amino Acids
+											
+												<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+									            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+									              Open Tree
+									            </p>
+									            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+									            </svg>
+									          </button>
+											
+	                                    </a>
+	
+	                                    
+	                                      <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--3 | vf-list" aria-role="group">
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-building-blocks-amino-acids/general-structure/">
+	                                              General Structure
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-building-blocks-amino-acids/ionisation-and-pka-values/">
+	                                              Ionisation And Pka Values
+	                                            </a>
+	                                          </li>
+	                                        
+	                                      </ul>
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-peptide-bond-and-primary-structure/">
+	                                      The Peptide Bond And Primary Structure
+											
+												<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+									            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+									              Open Tree
+									            </p>
+									            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+									            </svg>
+									          </button>
+											
+	                                    </a>
+	
+	                                    
+	                                      <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--3 | vf-list" aria-role="group">
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-peptide-bond-and-primary-structure/the-nature-of-the-peptide-bond/">
+	                                              The Nature Of The Peptide Bond
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-peptide-bond-and-primary-structure/the-ramachandran-plot-a-map-of-the-possible/">
+	                                              The Ramachandran Plot A Map Of The Possible
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/the-peptide-bond-and-primary-structure/ss/">
+	                                              Ss
+	                                            </a>
+	                                          </li>
+	                                        
+	                                      </ul>
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/test-your-knowledge/">
+	                                      Test Your Knowledge
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/fundamentals-of-protein-composition/summary/">
+	                                      Summary
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                              </ul>
+	                            
+	
+	                          </li>
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/">
+	                             Principles Of Protein Folding And Architecture
+									
+										<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+							            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+							              Open Tree
+							            </p>
+							            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+							            </svg>
+							          </button>
+									
+	                            </a>
+	
+	                            
+	                              <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--2 | vf-list" aria-role="group">
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/visualising-protein-structures/">
+	                                      Visualising Protein Structures
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/secondary-structure-alpha-helices-and-beta-sheets/">
+	                                      Secondary Structure Alpha Helices And Beta Sheets
+											
+												<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+									            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+									              Open Tree
+									            </p>
+									            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+									            </svg>
+									          </button>
+											
+	                                    </a>
+	
+	                                    
+	                                      <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--3 | vf-list" aria-role="group">
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/secondary-structure-alpha-helices-and-beta-sheets/alpha-helix/">
+	                                              Alpha Helix
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/secondary-structure-alpha-helices-and-beta-sheets/beta-sheet/">
+	                                              Beta Sheet
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/secondary-structure-alpha-helices-and-beta-sheets/flexible-regions/">
+	                                              Flexible Regions
+	                                            </a>
+	                                          </li>
+	                                        
+	                                      </ul>
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/tertiary-structure/">
+	                                      Tertiary Structure
+											
+												<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+									            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+									              Open Tree
+									            </p>
+									            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+									            </svg>
+									          </button>
+											
+	                                    </a>
+	
+	                                    
+	                                      <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--3 | vf-list" aria-role="group">
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/tertiary-structure/stabilisation-forces/">
+	                                              Stabilisation Forces
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/tertiary-structure/structural-motifs-domains-and-folds/">
+	                                              Structural Motifs Domains And Folds
+	                                            </a>
+	                                          </li>
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/tertiary-structure/how-proteins-fold/">
+	                                              How Proteins Fold
+	                                            </a>
+	                                          </li>
+	                                        
+	                                      </ul>
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/principles-of-protein-folding-and-architecture/test-your-knowledge/">
+	                                      Test Your Knowledge
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                              </ul>
+	                            
+	
+	                          </li>
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/">
+	                             Protein Dynamics Interactions And Modifications
+									
+										<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+							            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+							              Open Tree
+							            </p>
+							            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+							            </svg>
+							          </button>
+									
+	                            </a>
+	
+	                            
+	                              <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--2 | vf-list" aria-role="group">
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/quaternary-structure/">
+	                                      Quaternary Structure
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/principles-of-molecular-recognition/">
+	                                      Principles Of Molecular Recognition
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/protein-protein-interactions/">
+	                                      Protein Protein Interactions
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/protein-ligand-interactions/">
+	                                      Protein Ligand Interactions
+											
+												<button class="vf-button vf-tree__button" data-vf-js-tree--button>
+									            <p data-vf-js-tree-button-hidden-text class="vf-u-sr-only">
+									              Open Tree
+									            </p>
+									            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+									              <path d="M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z" />
+									            </svg>
+									          </button>
+											
+	                                    </a>
+	
+	                                    
+	                                      <ul class="vf-tree__list vf-tree__list--additional vf-tree__list--3 | vf-list" aria-role="group">
+	                                        
+	                                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/protein-ligand-interactions/binding-site/">
+	                                              Binding Site
+	                                            </a>
+	                                          </li>
+	                                        
+	                                      </ul>
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/protein-dynamics-and-flexibility/">
+	                                      Protein Dynamics And Flexibility
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/intrinsically-disordered-proteins-and-regions/">
+	                                      Intrinsically Disordered Proteins And Regions
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/post-translational-modifications-and-protein-localisation/">
+	                                      Post Translational Modifications And Protein Localisation
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                                  <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                                    <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/protein-dynamics-interactions-and-modifications/test-your-knowledge/">
+	                                      Test Your Knowledge
+											
+	                                    </a>
+	
+	                                    
+	
+	                                  </li>
+	                                
+	                              </ul>
+	                            
+	
+	                          </li>
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/glossary/">
+	                             Glossary
+									
+	                            </a>
+	
+	                            
+	
+	                          </li>
+	                        
+	                          <li class="vf-tree__item" data-vf-js-tree--collapsed="true" data-vf-js-tree aria-role="treeitem" aria-expanded="">
+	                            <a class="vf-tree__link" href="/AlphaFold-A-practical-guide/en/your-feedback/">
+	                             Your Feedback
+									
+	                            </a>
+	
+	                            
+	
+	                          </li>
+	                        
+	                      </ul>
+						</div>
+					</div>
+		                  <hr class="vf-divider vf-u-margin__bottom-md">
+												<p>
+													<a href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons"
+															src="http://trainingcontent.embl.org/themes/custom/ebi_academy/images/CC_BY.png"
+															style="width: 125px; height: 44px;" width="125" height="44"></a>
+												</p>
+												<p class="vf-u-type__text-body--3">Todos los materiales son obras culturales gratuitas con licencia Creative Commons.
+													<a href="https://creativecommons.org/licenses/by/4.0/"
+														class="vf-link vf-link--primary  vf-u-margin--0" style="display:inline">Licencia Atribución 4.0 Internacional (CC BY 4.0), excepto cuando se proporcionen más detalles de la licencia </a>
+												</p>
+												<div class="vf-u-margin__top--500"></div>
+												<hr class="vf-divider vf-u-margin__bottom-md">
+
+												
+											</div>
+											<!-- Sidebar end -->
+											<div class="acc">
+												<div class="vf-u-margin__top--500"></div>
+												<h1 id="glossary">Glossary</h1>
+
+<p>This glossary focuses on terms that are specific to this course.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>α-helix</td>
+      <td>A common type of protein secondary structure in which the polypeptide backbone coils into a right-handed spiral. It is stabilised by regular hydrogen bonds between backbone atoms. They are illustrated in a ‘short cartoon form’ as a flat strip curled into a helix.</td>
+    </tr>
+    <tr>
+      <td>acetylation</td>
+      <td>A post-translational modification in which an acetyl group (–COCH₃) is covalently attached to a protein, typically at lysine residues or the protein N-terminus, through an enzymatic reaction.</td>
+    </tr>
+    <tr>
+      <td>active site</td>
+      <td>The specific region of an enzyme where a substrate binds, and a chemical reaction takes place. The active site is formed by a precise arrangement of amino acid side chains.</td>
+    </tr>
+    <tr>
+      <td>affinity</td>
+      <td>The strength with which a ligand binds to a protein.</td>
+    </tr>
+    <tr>
+      <td>amino acid</td>
+      <td>The basic building block of proteins. Each amino acid contains a central carbon attached to an amino group, a carboxyl group, a hydrogen atom, and a variable side chain (R-group) that determines its chemical properties.</td>
+    </tr>
+    <tr>
+      <td>amphipathic</td>
+      <td>Describes a molecule or side chain that has both hydrophobic (water-repelling) and hydrophilic (water-interacting) regions. Amphipathic residues often sit at the boundary between a protein’s interior and the surrounding solvent.</td>
+    </tr>
+    <tr>
+      <td>aromatic (in the chemical sense)</td>
+      <td>Refers to a ring-shaped structure with a stable arrangement of electrons shared across the ring (a conjugated π system). In proteins, aromatic side chains such as phenylalanine, tyrosine, and tryptophan can participate in stacking interactions.</td>
+    </tr>
+    <tr>
+      <td>backbone (protein backbone)</td>
+      <td>The repeating chain of atoms that forms the structural framework of a protein, consisting of the sequence N–Cα–C. Side chains project outward from this backbone.</td>
+    </tr>
+    <tr>
+      <td>β-sheet</td>
+      <td>A common type of protein secondary structure is formed when extended strands of the polypeptide chain align side by side. The strands are stabilised by hydrogen bonds between backbone atoms, creating a sheet-like structure. They are illustrated in a ‘short-form’ as a flat strip with an arrow at one end that indicates the direction of the amino acid sequence, pointing towards the C-terminus.</td>
+    </tr>
+    <tr>
+      <td>binding pocket</td>
+      <td>A small, three-dimensional cavity on a protein where a specific molecule can bind through complementary shape and chemical interactions.</td>
+    </tr>
+    <tr>
+      <td>C-terminus</td>
+      <td>The end of a polypeptide chain that contains a free carboxyl group (–COO⁻ or –COOH). By convention, protein sequences are written and read from the N-terminus to the C-terminus.</td>
+    </tr>
+    <tr>
+      <td>carboxyl group</td>
+      <td>A chemical group consisting of a carbon atom double-bonded to oxygen and single-bonded to a hydroxyl group (–COOH). In proteins, it is part of the amino acid backbone and can carry a negative charge at different pH values.</td>
+    </tr>
+    <tr>
+      <td>catalysis</td>
+      <td>The process of increasing the rate of a chemical reaction.</td>
+    </tr>
+    <tr>
+      <td>central dogma</td>
+      <td>The principle describing the flow of genetic information in cells: DNA is transcribed into RNA, and RNA is translated into protein.</td>
+    </tr>
+    <tr>
+      <td>charged</td>
+      <td>Describes a molecule or side chain that carries a net positive or negative electrical charge under specific conditions, such as a given pH.</td>
+    </tr>
+    <tr>
+      <td>chirality</td>
+      <td>A property of a molecule that makes it non-superimposable on its mirror image, like left and right hands. With the exception of glycine, amino acids are chiral, and biological proteins are built from L-amino acids.</td>
+    </tr>
+    <tr>
+      <td>codon</td>
+      <td>A sequence of three nucleotides in messenger RNA that specifies a particular amino acid or signals the start or stop of protein synthesis.</td>
+    </tr>
+    <tr>
+      <td>codon usage bias</td>
+      <td>The tendency of an organism to prefer certain codons over others that encode the same amino acid. This preference is often linked to the availability of corresponding transfer RNAs (tRNAs).</td>
+    </tr>
+    <tr>
+      <td>conformation</td>
+      <td>The specific three-dimensional arrangement of atoms in a molecule, particularly the shape adopted by a protein or a region of a protein.</td>
+    </tr>
+    <tr>
+      <td>conserved residue</td>
+      <td>An amino acid that remains unchanged across related protein sequences from different organisms, often because it plays an important structural or functional role.</td>
+    </tr>
+    <tr>
+      <td>cooperativity</td>
+      <td>A phenomenon in which binding at one site on a protein changes the affinity of other binding sites for the same molecule.</td>
+    </tr>
+    <tr>
+      <td>degeneracy (of the genetic code)</td>
+      <td>The feature of the genetic code in which most amino acids are encoded by more than one codon.</td>
+    </tr>
+    <tr>
+      <td>denaturation</td>
+      <td>Loss of a protein’s three-dimensional structure, usually resulting in loss of function.</td>
+    </tr>
+    <tr>
+      <td>deprotonated</td>
+      <td>Describes a molecule or side chain that has lost a proton (H⁺). Deprotonation often changes the charge of the group.</td>
+    </tr>
+    <tr>
+      <td>disulfide bond</td>
+      <td>A covalent bond formed between the sulphur atoms of two cysteine residues. Disulphide bonds help stabilise the three-dimensional structure of many proteins.</td>
+    </tr>
+    <tr>
+      <td>domain</td>
+      <td>A distinct structural and functional unit within a protein. Many proteins contain multiple domains that can fold and function independently.</td>
+    </tr>
+    <tr>
+      <td>electrostatic interaction</td>
+      <td>An attraction or repulsion between charged groups. In proteins, electrostatic interactions contribute to folding, stability, and molecular recognition.</td>
+    </tr>
+    <tr>
+      <td>enzyme</td>
+      <td>A protein that speeds up (catalyses) a specific chemical reaction without being consumed in the process.</td>
+    </tr>
+    <tr>
+      <td>folding pathway</td>
+      <td>The sequence of structural changes a polypeptide chain undergoes as it folds from a linear chain into its functional three-dimensional structure.</td>
+    </tr>
+    <tr>
+      <td>genetic code</td>
+      <td>The set of rules by which sequences of three nucleotides (codons) in RNA specify amino acids during protein synthesis.</td>
+    </tr>
+    <tr>
+      <td>glycosylation</td>
+      <td>A protein post-translational modification in which a carbohydrate is covalently attached to a protein through an enzymatic reaction.</td>
+    </tr>
+    <tr>
+      <td>homology</td>
+      <td>Similarity between proteins or genes that arises from shared evolutionary ancestry.</td>
+    </tr>
+    <tr>
+      <td>hydrogen bond</td>
+      <td>A weak interaction between a hydrogen atom bonded to an electronegative atom (such as oxygen or nitrogen) and another electronegative atom. Hydrogen bonds help stabilise protein structures.</td>
+    </tr>
+    <tr>
+      <td>hydrophobic</td>
+      <td>Describes a molecule or side chain that does not interact favourably with water and tends to avoid aqueous environments.</td>
+    </tr>
+    <tr>
+      <td>hydrophobic effect</td>
+      <td>The tendency of nonpolar (hydrophobic) groups to cluster together in water, reducing their exposure to the solvent. This is a major driving force in protein folding.</td>
+    </tr>
+    <tr>
+      <td>ionisation</td>
+      <td>The process by which a molecule gains or loses a proton, resulting in a change in electrical charge.</td>
+    </tr>
+    <tr>
+      <td>L-amino acids</td>
+      <td>The specific stereochemical form of amino acids is used to build biological proteins. All standard amino acids (except glycine, which is achiral) are incorporated in the L-configuration.</td>
+    </tr>
+    <tr>
+      <td>ligand</td>
+      <td>A molecule that binds specifically to a protein, often at a defined binding site or pocket.</td>
+    </tr>
+    <tr>
+      <td>methylation</td>
+      <td>A post-translational modification in which a methyl group (–CH₃) is covalently added to a protein, typically at lysine or arginine residues, through an enzymatic reaction.</td>
+    </tr>
+    <tr>
+      <td>mutation</td>
+      <td>A change in the DNA sequence that may alter the amino acid sequence or function of a protein.</td>
+    </tr>
+    <tr>
+      <td>missense mutation</td>
+      <td>A change in DNA that alters one codon so that it specifies a different amino acid in the protein.</td>
+    </tr>
+    <tr>
+      <td>molecular complementarity</td>
+      <td>The degree to which the shape and chemical properties of two molecular surfaces fit together.</td>
+    </tr>
+    <tr>
+      <td>multiple sequence alignment (MSA)</td>
+      <td>A method used to compare three or more protein (or DNA) sequences by aligning them to identify similarities and differences. MSAs help reveal conserved residues, functional motifs, and evolutionary relationships between related proteins.</td>
+    </tr>
+    <tr>
+      <td>native structure</td>
+      <td>The properly folded, functional three-dimensional structure of a protein under physiological conditions.</td>
+    </tr>
+    <tr>
+      <td>N-terminus</td>
+      <td>The end of a polypeptide chain that contains a free amino group (–NH₂ or –NH₃⁺). By convention, protein sequences are written and synthesised from the N-terminus to the C-terminus.</td>
+    </tr>
+    <tr>
+      <td>pH</td>
+      <td>A measure of the acidity or basicity of a solution, reflecting the concentration of hydrogen ions (H⁺).</td>
+    </tr>
+    <tr>
+      <td>phosphorylation</td>
+      <td>A reversible post-translational modification in which a phosphate group (PO₄³⁻) is enzymatically added to a protein, typically at serine, threonine, or tyrosine residues by specialized enzymes called kinases.</td>
+    </tr>
+    <tr>
+      <td>pKa</td>
+      <td>The pH at which a chemical group is 50% protonated and 50% deprotonated. It indicates how readily a group gains or loses a proton.</td>
+    </tr>
+    <tr>
+      <td>protonated</td>
+      <td>Describes a molecule or side chain that has gained a proton (H⁺). Protonation often changes the group’s charge.</td>
+    </tr>
+    <tr>
+      <td>peptide bond</td>
+      <td>The covalent bond formed between the carboxyl group of one amino acid and the amino group of the next. This linkage joins amino acids into a polypeptide chain.</td>
+    </tr>
+    <tr>
+      <td>peptide plane</td>
+      <td>The flat, rigid unit formed by the atoms involved in a peptide bond. Because the peptide bond has partial double-bond character, the atoms in this region lie in a single plane.</td>
+    </tr>
+    <tr>
+      <td>phi (φ) angle</td>
+      <td>The torsion angle describing rotation around the bond between the nitrogen (N) and the alpha carbon (Cα) in the protein backbone.</td>
+    </tr>
+    <tr>
+      <td>polar</td>
+      <td>Describes a molecule or side chain with an uneven distribution of electrical charge, allowing it to form hydrogen bonds and interact favourably with water.</td>
+    </tr>
+    <tr>
+      <td>polypeptide</td>
+      <td>A linear chain of amino acids linked together by peptide bonds. A folded polypeptide forms a functional protein (or part of one).</td>
+    </tr>
+    <tr>
+      <td>primary structure</td>
+      <td>The linear sequence of amino acids in a protein is written from the N-terminus to the C-terminus.</td>
+    </tr>
+    <tr>
+      <td>psi (ψ) angle</td>
+      <td>The torsion angle describes rotation around the bond between the alpha carbon (Cα) and the carbonyl carbon (C) in the protein backbone.</td>
+    </tr>
+    <tr>
+      <td>quaternary structure</td>
+      <td>The arrangement of multiple polypeptide chains into a functional protein complex.</td>
+    </tr>
+    <tr>
+      <td>Ramachandran plot</td>
+      <td>A graph that shows the allowed combinations of phi (φ) and psi (ψ) backbone angles in proteins. It is used to visualise and evaluate protein conformations.</td>
+    </tr>
+    <tr>
+      <td>residue</td>
+      <td>An amino acid within a polypeptide chain. The term refers to the portion of the original amino acid that remains after peptide bond formation.</td>
+    </tr>
+    <tr>
+      <td>ribosome</td>
+      <td>The molecular machine in the cell that reads messenger RNA and assembles amino acids into a polypeptide chain during translation.</td>
+    </tr>
+    <tr>
+      <td>salt bridge</td>
+      <td>An interaction between oppositely charged side chains in a protein, combining electrostatic attraction and often hydrogen bonding.</td>
+    </tr>
+    <tr>
+      <td>secondary structure</td>
+      <td>Local, regularly repeating structures within a protein, such as α-helices and β-sheets, stabilised primarily by hydrogen bonds between backbone atoms.</td>
+    </tr>
+    <tr>
+      <td>sequence identity</td>
+      <td>The percentage of positions in two aligned sequences that contain exactly the same amino acid.</td>
+    </tr>
+    <tr>
+      <td>sequence similarity</td>
+      <td>The percentage of positions in two aligned sequences that contain either identical or chemically similar amino acids.</td>
+    </tr>
+    <tr>
+      <td>side chain (R-group)</td>
+      <td>The variable chemical group attached to the alpha carbon of an amino acid. Side chains determine the chemical properties of each amino acid.</td>
+    </tr>
+    <tr>
+      <td>silent mutation</td>
+      <td>A change in DNA that alters a codon but does not change the amino acid specified.</td>
+    </tr>
+    <tr>
+      <td>stability</td>
+      <td>The tendency of a protein to remain in its folded, functional state under given conditions.</td>
+    </tr>
+    <tr>
+      <td>structural motif</td>
+      <td>A recurring combination of secondary structural elements arranged in a specific three-dimensional pattern, often associated with a particular function.</td>
+    </tr>
+    <tr>
+      <td>substrate</td>
+      <td>The molecule upon which an enzyme acts.</td>
+    </tr>
+    <tr>
+      <td>Tertiary structure</td>
+      <td>The overall three-dimensional structure of a single polypeptide chain.</td>
+    </tr>
+    <tr>
+      <td>three-dimensional structure</td>
+      <td>The complete spatial arrangement of all atoms in a protein, including how its polypeptide chain folds into a functional shape.</td>
+    </tr>
+    <tr>
+      <td>torsion angle</td>
+      <td>The angle describing rotation around a bond in a molecule. In proteins, backbone torsion angles (φ and ψ) determine chain conformation.</td>
+    </tr>
+    <tr>
+      <td>transcription</td>
+      <td>The process by which the information in a DNA sequence is copied into a complementary RNA molecule.</td>
+    </tr>
+    <tr>
+      <td>translation</td>
+      <td>The process by which a ribosome reads the sequence of a messenger RNA (mRNA) and assembles the corresponding amino acids into a polypeptide chain.</td>
+    </tr>
+    <tr>
+      <td>ubiquitination</td>
+      <td>A post-translational modification in which the small regulatory protein ubiquitin is attached to a protein through an enzymatic reaction.</td>
+    </tr>
+    <tr>
+      <td>Van der Waals interaction</td>
+      <td>Weak, short-range interactions between atoms are caused by small, temporary fluctuations in electron distribution. Although individually weak, many van der Waals interactions together help stabilise protein structures and molecular packing.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+											</div>
+										</section>
+									</div>
+								</div>
+							</article>
+
+
+
+						</div>
+					</div>
+				</div>
+			</main>
+  <script src="https://assets.emblstatic.net/vf/v2.5.25/scripts/scripts.js"></script>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
