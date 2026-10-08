@@ -1,12 +1,12 @@
 # Foundations-of-protein-structure
 
-Welcome to the **AlphaFold-A-practical-guide** repository! This repo hosts the official course content in English and supports community-driven translations into multiple languages. The published course can be visited at https://www.ebi.ac.uk/training/online/courses/alphafold/
+Welcome to the **Foundations-of-protein-structure** repository! This repo hosts the official course content in English and supports community-driven translations into multiple languages. The published course can be visited at https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/
 
 ---
 
 ## 📖 Purpose
 
-- Host the official course content for **AlphaFold-A-practical-guide**.
+- Host the official course content for **Foundations-of-protein-structure**.
 - Allow the community to contribute translations and improvements.
 - Maintain high-quality, consistent content for learners worldwide.
 
@@ -19,8 +19,8 @@ Translations are maintained in **language-specific branches**, e.g.:
 
 | Branch | Language | Status |
 |--------|----------|--------|
-| `main` | English | [Active](https://github.com/BioInfoCommunity/AlphaFold-A-practical-guide/tree/main) |
-| `-hi`  | Hindi | [In progress](https://github.com/BioInfoCommunity/AlphaFold-A-practical-guide/tree/hindi) |
+| `main` | English | [Active](https://github.com/BioInfoCommunity/Foundations-of-protein-structure/tree/main) |
+| `-hi`  | Hindi | [In progress](https://github.com/BioInfoCommunity/Foundations-of-protein-structure/tree/hindi) |
 | `-pt`  | Portuguese | --      |
 | `-fr`  | French | --      |
 | `-de`  | German | --      |
@@ -54,11 +54,11 @@ We welcome contributions from the community! Please refer to these [guidelines](
 
 ## 🔗 Resources
 
-- [Published course](https://www.ebi.ac.uk/training/online/courses/alphafold/)
+- [Published course](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/)
 - [Markdown Formatting Guide](https://www.markdownguide.org/basic-syntax/)  
 - [GitHub Fork & PR Tutorial](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 ---
 
-Thank you for helping make AlphaFold courses accessible in multiple languages! 🌍
+Thank you for helping make the Foundations of protein structure course accessible in multiple languages! 🌍
 
