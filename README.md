@@ -20,7 +20,7 @@ Translations are maintained in **language-specific branches**, e.g.:
 | Branch | Language | Status |
 |--------|----------|--------|
 | `main` | English | [Active](https://github.com/BioInfoCommunity/Foundations-of-protein-structure/tree/main) |
-| `-hi`  | Hindi | [In progress](https://github.com/BioInfoCommunity/Foundations-of-protein-structure/tree/hindi) |
+| `-hi`  | Hindi | --      |
 | `-pt`  | Portuguese | --      |
 | `-fr`  | French | --      |
 | `-de`  | German | --      |
