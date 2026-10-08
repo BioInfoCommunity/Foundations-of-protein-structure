@@ -1,8 +1,8 @@
-title: AlphaFold - A practical guide
-description: This tutorial is aimed at researchers who are interested in using AlphaFold to predict protein structures and integrate these predictions into their projects
+title: Foundations of protein structure - Principles of protein architecture and function
+description: This tutorial is aimed at researchers, undergraduates, and clinicians who would like to use protein structures for their research, but do not know how to achieve this in practice.
 
 baseurl: ""
-url: "https://sandykadam.github.io/AlphaFold-A-practical-guide"
+url: "https://bioinfocommunity.github.io/Foundations-of-protein-structure"
 
 markdown: kramdown
 theme: null
