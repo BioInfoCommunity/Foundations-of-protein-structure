@@ -1,28 +1,4 @@
+# Course-specific values. The rest of the config comes from course-template.
 title: Foundations of protein structure - Principles of protein architecture and function
 description: This tutorial is aimed at researchers, undergraduates, and clinicians who would like to use protein structures for their research, but do not know how to achieve this in practice.
-
-baseurl: ""
 url: "https://bioinfocommunity.github.io/Foundations-of-protein-structure"
-
-markdown: kramdown
-theme: null
-
-permalink: pretty
-
-# Build settings
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-
-# Collections (optional if needed later)
-collections:
-  pages:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
