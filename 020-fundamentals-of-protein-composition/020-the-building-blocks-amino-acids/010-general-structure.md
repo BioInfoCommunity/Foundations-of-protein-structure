@@ -16,6 +16,7 @@ These differences dictate where residues prefer to sit in a folded protein, how 
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/residues.png)
 
 Residues are grouped by the chemical properties of their side chains. The chart includes 3-letter and 1-letter codes along with the chemical structure of the R-group.
+{: .figure-caption}
 
 For clarity, we group amino acids into broad physicochemical classes. These categories are simplifications; many residues fit more than one description,  but they are extremely useful for structural reasoning.
 
@@ -37,6 +38,7 @@ For clarity, we group amino acids into broad physicochemical classes. These cate
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-24.png)
 
 This schematic illustrates the formation of a disulphide bond, a covalent linkage between two cysteine residues. Each cysteine contains a reactive thiol group (–SH) in its side chain. When two cysteines come into close proximity in an oxidising environment, their thiol groups lose hydrogen atoms and form a sulphur–sulphur (S–S) bond. This covalent bridge links either two regions of the same polypeptide or two separate chains, stabilising the three-dimensional structure of the protein.
+{: .figure-caption}
 
 **Charged amino acids** have side chains that carry a net positive or negative charge. These residues interact strongly with water and are therefore most commonly found on the surface of proteins where they contribute to solubility and molecular interactions. Charged residues can be divided into positively charged (basic) and negatively charged (acidic) side chains.
 
@@ -54,3 +56,4 @@ Importantly, these properties are not mutually exclusive, and individual amino a
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-18.png)
 
 This Venn diagram demonstrates that the physicochemical categories used to group amino acids are not mutually exclusive, as many amino acids possess multiple distinct properties simultaneously.
+{: .figure-caption}

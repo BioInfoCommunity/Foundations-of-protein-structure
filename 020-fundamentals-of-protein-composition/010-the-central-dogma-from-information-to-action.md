@@ -26,6 +26,7 @@ Why study proteins? Proteins underpin every aspect of biological activity.
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-17-1024x683.png)
 
 This diagram represents the pathways of genetic information transfer, beginning with DNAreplication, the process by which a DNA molecule is copied to maintain the genetic blueprint. While most information flows through transcription to create RNA, unique cases like retroviruses can “flip the script” by using reverse transcription to turn RNA back into DNA. The messenger RNA is then translated into amino acids to direct the assembly of a specific Protein Structure, which then takes on its specific protein function within the cell.
+{: .figure-caption}
 
 ## **The genetic code: Redundancy and robustness**
 
@@ -38,6 +39,7 @@ The ribosome reads mRNA in groups of three nucleotides called **codons**. With f
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/codon-deg-1.png)
 
 The standard RNA genetic code table. This grid illustrates the universal mapping of 64 mRNA triplet codons to the 20 standard amino acids used in protein biosynthesis. The table is organised by the position of the nucleotides within the triplet: the first letter (left axis), second letter (top axis), and third letter (right axis). The start codon (AUG), which codes for Methionine (Met), is highlighted in red, signifying the initiation site of translation. The three stop codons (UAA, UAG, UGA) are shown in bold; these signal the termination of the polypeptide chain.
+{: .figure-caption}
 
 This matters for structural biology because many sequence changes are structurally tolerated (no large fold change) yet can still alter stability, binding, or regulation. Seeing where a specific amino acid sits in the 3D structure makes it easier to understand how a mutation might change stability or function.
 

@@ -27,6 +27,7 @@ Protein oligomers are classified by the number and type of their constituent sub
 Homomers (e.g., homotrimer a3,
 homopentamer a5) consist of identical polypeptide chains, often displaying high rotational symmetry.
 Heteromers (e.g., heterotrimer abc, heterotetramer abcd) are composed of distinct subunits, allowing for complex interfaces and specialized functional regulation.
+{: .figure-caption}
 
 ## **Symmetry in protein assemblies**
 

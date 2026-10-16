@@ -15,3 +15,4 @@ The trans form is the more favoured state because in this arrangement repulsion 
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-21-449x1024.png)
 
 This schematic illustrates a segment of a protein backbone, emphasising the stereochemical constraints and degrees of freedom. The peptide planes (shaded gray areas) depict the rigid, planar units formed by the partial double-bond character of the peptide bond (C-N). Backbone flexibility is primarily determined by rotation around the alpha-carbon (Cα) bonds, defined by the torsion angles phi (φ ) (rotation around the N-Cα bond) and psi (ψ) (rotation around the Cα-C bond). Side-chain groups are denoted by R.
+{: .figure-caption}

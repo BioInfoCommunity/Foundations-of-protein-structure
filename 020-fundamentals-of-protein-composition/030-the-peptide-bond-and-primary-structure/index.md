@@ -12,6 +12,7 @@ Amino acids are linked together to form proteins through a **condensation reacti
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-25.png)
 
 Formation of the peptide bond. A condensation reaction between the carboxyl group of one amino acid and the amino group of the next releases water and forms a covalent peptide bond (C-N). This linkage creates the continuous backbone of the polypeptide chain.
+{: .figure-caption}
 
 ## Polypeptide chain directionality
 
@@ -22,3 +23,4 @@ Each polypeptide has two chemically distinct ends. The N-terminus (amino terminu
 ![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-27.png)
 
 This diagram illustrates the fundamental architecture of a protein chain, which is defined by distinct “start” and “end” regions. Every protein begins at the N-terminus (amino terminus), featuring a free α-amino (NH2) group, which is traditionally designated as Residue #1. The chain concludes at the C-terminus (carboxyl terminus), ending with a free α-carboxyl (COOH) group. By biological convention, protein sequences are universally synthesised, written, and read in the N → C direction.
+{: .figure-caption}
