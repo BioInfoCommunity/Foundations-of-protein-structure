@@ -15,14 +15,19 @@ Each individual amino acid has both conserved features shared by all amino acids
 
 While the 20 amino acids have different properties, they all share a common chemical framework. Each amino acid has a common core structure that consists of a central carbon, C𝞪 (the alpha carbon). Attached to this central atom are four distinct groups:
 
-1. An amino group (-NH2, or -NH3+ under physiologicalpH).
-2. A carboxyl acid group (-COOH, or -COO– under physiological conditions).
+1. An amino group (-NH<sub>2</sub>, or -NH<sub>3</sub><sup>+</sup> under physiologicalpH).
+2. A carboxyl acid group (-COOH, or -COO<sup>–</sup> under physiological conditions).
 3. A hydrogen (H) atom.
 4. A variable side chain, also denoted as the R-group.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-22.png)
-
-The central 𝞪-carbon is bonded to an amino group, a carboxyl group, a hydrogen atom, and a variable side chain (R).
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-22.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">The central 𝞪-carbon is bonded to an amino group, a carboxyl group, a hydrogen atom, and a variable side chain (R).</figcaption>
 
 The amino and carboxyl groups, along with the Cα, form the “**backbone**” of the protein. This backbone is a repeating, universal scaffold that runs the length of the protein, while the R-groups project outward like branches on a tree. It is the specific chemistry of these R-groups that gives each amino acid its diversity and ultimately determines how the protein will fold.
 
@@ -47,6 +52,11 @@ As a side note, with the exception of glycine (whose side chain is a simple Hydr
 
 One consequence is that many common protein features also have a preferred handedness; for example, α-helices in natural proteins are mostly right-handed.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-23.png)
-
-L- and D-forms of a chiral amino acid. Schematic representation of the two non-superimposable mirror images of Alanine. The L- and D-forms differ in their three-dimensional arrangement around the Cα but share identical chemical composition.
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-23.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">L- and D-forms of a chiral amino acid. Schematic representation of the two non-superimposable mirror images of Alanine. The L- and D-forms differ in their three-dimensional arrangement around the Cα but share identical chemical composition.</figcaption>

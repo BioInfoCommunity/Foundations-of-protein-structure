@@ -13,9 +13,14 @@ While the backbone of every amino acid is identical, the chemical properties of 
 
 These differences dictate where residues prefer to sit in a folded protein, how proteins interact with other molecules and whether mutations disrupt structure or function.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/residues.png)
-
-Residues are grouped by the chemical properties of their side chains. The chart includes 3-letter and 1-letter codes along with the chemical structure of the R-group.
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/residues.png"
+       alt=""
+       width="800"
+       height="800"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">Residues are grouped by the chemical properties of their side chains. The chart includes 3-letter and 1-letter codes along with the chemical structure of the R-group.</figcaption>
 
 For clarity, we group amino acids into broad physicochemical classes. These categories are simplifications; many residues fit more than one description,  but they are extremely useful for structural reasoning.
 
@@ -34,9 +39,14 @@ For clarity, we group amino acids into broad physicochemical classes. These cate
 * One of the most important reactions to a serine or threonine side chain is the addition of a phosphate group to create phosphoserine or phosphothreonine.  This occurs as a post-translational modification in the cell after protein synthesis on the ribosome and is important in protein–protein interactions and intracellular signalling pathways.
 * Cysteine (Cys, C) contains a thiol (–SH) group that can form disulphide bonds with other cysteine residues. When two cysteines are close in the structure, the two sulphur atoms will form a covalent bond of similar strength to the peptide bond between sequential amino acids. Disulphide bonds are much stronger than non-covalent hydrogen bonds, and they play an important role in stabilising the three-dimensional structure of many proteins, particularly those that function outside of the cell.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-24.png)
-
-This schematic illustrates the formation of a disulphide bond, a covalent linkage between two cysteine residues. Each cysteine contains a reactive thiol group (–SH) in its side chain. When two cysteines come into close proximity in an oxidising environment, their thiol groups lose hydrogen atoms and form a sulphur–sulphur (S–S) bond. This covalent bridge links either two regions of the same polypeptide or two separate chains, stabilising the three-dimensional structure of the protein.
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-24.png"
+       alt=""
+       width="300"
+       height="300"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">This schematic illustrates the formation of a disulphide bond, a covalent linkage between two cysteine residues. Each cysteine contains a reactive thiol group (–SH) in its side chain. When two cysteines come into close proximity in an oxidising environment, their thiol groups lose hydrogen atoms and form a sulphur–sulphur (S–S) bond. This covalent bridge links either two regions of the same polypeptide or two separate chains, stabilising the three-dimensional structure of the protein.</figcaption>
 
 **Charged amino acids** have side chains that carry a net positive or negative charge. These residues interact strongly with water and are therefore most commonly found on the surface of proteins where they contribute to solubility and molecular interactions. Charged residues can be divided into positively charged (basic) and negatively charged (acidic) side chains.
 
@@ -51,6 +61,11 @@ The **special cases:** these amino acids have unique structural effects that oft
 
 Importantly, these properties are not mutually exclusive, and individual amino acids are often described using multiple descriptors. For example, Tryptophan (Trp, W) is defined by its fused indole ring system, which classifies it as a bulky, aromatic amino acid. While its carbon skeleton is inherently non-polar, the secondary amine within the ring provides a dipole that allows it to function as a hydrogen bond donor. It is normal for this terminology to feel unfamiliar at first, and developing comfort with the language used by protein biologists comes with time and practice.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-18.png)
-
-This Venn diagram demonstrates that the physicochemical categories used to group amino acids are not mutually exclusive, as many amino acids possess multiple distinct properties simultaneously.
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-18.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">This Venn diagram demonstrates that the physicochemical categories used to group amino acids are not mutually exclusive, as many amino acids possess multiple distinct properties simultaneously.</figcaption>

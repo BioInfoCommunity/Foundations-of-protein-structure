@@ -11,6 +11,11 @@ It is important to note that these ‘allowed’ regions vary significantly for 
 
 The Ramachandran plot is also a standard structure-validation tool: residues far outside the allowed regions can indicate local modelling problems, strained geometry, or (rarely) genuinely unusual conformations that warrant closer inspection.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-26-1024x883.png)
-
-Ramachandran Plot. This plot visualises the energetically allowed conformational space for amino acid residues defined by their backbone dihedral angles, φ (phi, x-axis) and ψ (psi, y-axis). The coloured regions indicate angular combinations that avoid steric collisions between backbone and side-chain atoms. Darker regions represent the most energetically favoured conformations. Lighter regions represent allowed (but less energetically optimal) conformations. White space represents disallowed regions where steric hindrance (clashes between atoms) prevents the protein chain from adopting those angles. The four panels correspond to different residue classes: general residues, glycine, proline, and pre-proline (residues before and after the proline), each exhibiting distinct conformational preferences due to differences in side-chain geometry and steric constraints.
+<div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-26-1024x883.png" 
+       alt=""
+       width="750"
+       height="750"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">Ramachandran Plot. This plot visualises the energetically allowed conformational space for amino acid residues defined by their backbone dihedral angles, φ (phi, x-axis) and ψ (psi, y-axis). The coloured regions indicate angular combinations that avoid steric collisions between backbone and side-chain atoms. Darker regions represent the most energetically favoured conformations. Lighter regions represent allowed (but less energetically optimal) conformations. White space represents disallowed regions where steric hindrance (clashes between atoms) prevents the protein chain from adopting those angles. The four panels correspond to different residue classes: general residues, glycine, proline, and pre-proline (residues before and after the proline), each exhibiting distinct conformational preferences due to differences in side-chain geometry and steric constraints.</figcaption>
