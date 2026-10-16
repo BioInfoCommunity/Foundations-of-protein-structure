@@ -25,7 +25,6 @@ Perhaps the most common ligand-induced change is the “lid-like” movement of 
 
 These mobile loops act as functional gates, controlling access to active sites and coordinating the catalytic cycle.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -2329,4 +2328,3 @@ These mobile loops act as functional gates, controlling access to active sites a
         });
     </script>
 </div>
-{% endraw %}

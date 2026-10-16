@@ -23,23 +23,31 @@ In summary: DNA encodes RNA. RNA specifies protein sequence. Sequence determines
 
 Why study proteins? Proteins underpin every aspect of biological activity.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-17-1024x683.png)
-
-This diagram represents the pathways of genetic information transfer, beginning with DNAreplication, the process by which a DNA molecule is copied to maintain the genetic blueprint. While most information flows through transcription to create RNA, unique cases like retroviruses can “flip the script” by using reverse transcription to turn RNA back into DNA. The messenger RNA is then translated into amino acids to direct the assembly of a specific Protein Structure, which then takes on its specific protein function within the cell.
-{: .figure-caption}
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-17-1024x683.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">This diagram represents the pathways of genetic information transfer, beginning with DNAreplication, the process by which a DNA molecule is copied to maintain the genetic blueprint. While most information flows through transcription to create RNA, unique cases like retroviruses can &#8220;flip the script&#8221; by using reverse transcription to turn RNA back into DNA. The messenger RNA is then translated into amino acids to direct the assembly of a specific Protein Structure, which then takes on its specific protein function within the cell.</figcaption>
 
 ## **The genetic code: Redundancy and robustness**
 
-The ribosome reads mRNA in groups of three nucleotides called **codons**. With four possible bases (A, U, C, G), there are 43 = 64 possible codon combinations, yet only 20 standard amino acids. Because there are more codons (64) than amino acids (20), most amino acids are encoded by more than one codon. This feature is called degeneracy. For example, Glycine is encoded by the GGU, GGC, GGA and GGG codons. This redundancy provides critical biological robustness against mutations:
+The ribosome reads mRNA in groups of three nucleotides called **codons**. With four possible bases (A, U, C, G), there are 4<sup>3</sup> = 64 possible codon combinations, yet only 20 standard amino acids. Because there are more codons (64) than amino acids (20), most amino acids are encoded by more than one codon. This feature is called degeneracy. For example, Glycine is encoded by the GGU, GGC, GGA and GGG codons. This redundancy provides critical biological robustness against mutations:
 
 * If a DNA change results in a different codon that still specifies the same amino acid (e.g., GGT → GGC), the protein’s primary structure remains unchanged. These are often called **“silent” mutations**, though they can occasionally influence translation speed.
 * If the change results in a different amino acid (a “missense” mutation), it can alter the protein’s physicochemical properties. Replacing a small, neutral amino acid with a large, charged one can disrupt the protein’s internal packing, potentially leading to misfolding or loss of function.
 * However, consider a DNA mutation where a cytosine in an arginine codon (CGA) changes to a thymine (C → T). This alters the codon to TGA (STOP), resulting in premature termination that produces a truncated, likely nonfunctional protein. Such **nonsense mutations** typically have severe consequences.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/codon-deg-1.png)
-
-The standard RNA genetic code table. This grid illustrates the universal mapping of 64 mRNA triplet codons to the 20 standard amino acids used in protein biosynthesis. The table is organised by the position of the nucleotides within the triplet: the first letter (left axis), second letter (top axis), and third letter (right axis). The start codon (AUG), which codes for Methionine (Met), is highlighted in red, signifying the initiation site of translation. The three stop codons (UAA, UAG, UGA) are shown in bold; these signal the termination of the polypeptide chain.
-{: .figure-caption}
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/codon-deg-1.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">The standard RNA genetic code table. This grid illustrates the universal mapping of 64 mRNA triplet codons to the 20 standard amino acids used in protein biosynthesis. The table is organised by the position of the nucleotides within the triplet: the first letter (left axis), second letter (top axis), and third letter (right axis). The start codon (AUG), which codes for Methionine (Met), is highlighted in red, signifying the initiation site of translation. The three stop codons (UAA, UAG, UGA) are shown in bold; these signal the termination of the polypeptide chain.</figcaption>
 
 This matters for structural biology because many sequence changes are structurally tolerated (no large fold change) yet can still alter stability, binding, or regulation. Seeing where a specific amino acid sits in the 3D structure makes it easier to understand how a mutation might change stability or function.
 

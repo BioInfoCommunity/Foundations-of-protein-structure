@@ -17,7 +17,6 @@ In some cases, subunits are only partially folded on their own. It is only upon 
 
 This highlights an important point: complementarity is not always pre-existing. In a phenomenon called induced fit, one or both binding partners may be relatively unstructured or flexible when alone. Upon binding, they undergo conformational changes to achieve the complementary state required for high-affinity interaction. This emphasises that protein structures are dynamic entities rather than rigid blocks, a theme we’ll explore further below.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -2127,7 +2126,6 @@ This highlights an important point: complementarity is not always pre-existing. 
         });
     </script>
 </div>
-{% endraw %}
 
 ## **Induced fit and conformational changes**
 

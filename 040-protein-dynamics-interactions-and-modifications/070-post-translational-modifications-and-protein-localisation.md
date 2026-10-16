@@ -21,7 +21,6 @@ The most common modifications are:
 
 Post-translational modifications can alter the structure and/or charge of a protein and may even change the interactions the protein can mediate. There are other forms of post-translational modification that can also alter the stability and, in some cases, the tertiary structure of folded protein. Some of these modifications, such as phosphorylation and N-acetylation, are reversible and can act as conformational switches.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -4797,9 +4796,7 @@ Post-translational modifications can alter the structure and/or charge of a prot
         });
     </script>
 </div>
-{% endraw %}
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -8664,7 +8661,6 @@ Post-translational modifications can alter the structure and/or charge of a prot
         });
     </script>
 </div>
-{% endraw %}
 
 ## **Signal peptides and localisation**
 

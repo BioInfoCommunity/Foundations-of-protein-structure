@@ -20,10 +20,19 @@ Some oligomers contain only one kind of monomer, while others are made up of two
 
 The number and kinds of subunits in an assembly, together with their relative positions in the structure, constitute the quaternary structure of an assembly.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-1.png)
-
-**Diversity in protein quaternary structure.** Protein oligomers are classified by the number and type of their constituent subunits. Homomers (e.g., homotrimer a3, homopentamer a5) consist of identical polypeptide chains, often displaying high rotational symmetry. Heteromers (e.g., heterotrimer abc, heterotetramer abcd) are composed of distinct subunits, allowing for complex interfaces and specialized functional regulation.
-{: .figure-caption}
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-1.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align:center; color:#54585a; margin:0.5em 20px 1.5em; font-size:16px; line-height:1.45;">  <strong>Diversity in protein quaternary structure.</strong>
+  Protein oligomers are classified by the number and type of their constituent subunits.
+  Homomers (e.g., homotrimer a<sub style="font-size:0.8em; vertical-align:-0.2em;">3</sub>,
+  homopentamer a<sub style="font-size:0.8em; vertical-align:-0.2em;">5</sub>) consist of identical polypeptide chains, often displaying high rotational symmetry.
+  Heteromers (e.g., heterotrimer abc, heterotetramer abcd) are composed of distinct subunits, allowing for complex interfaces and specialized functional regulation.
+</figcaption>
 
 ## **Symmetry in protein assemblies**
 
@@ -33,7 +42,6 @@ So powerful is the tendency toward symmetry that it even influences oligomers co
 
 The irregular surfaces of proteins enable them to bind specific ligands and associate specifically with other proteins; this surface chemistry is what underlies the formation of quaternary structure.
 
-{% raw %}
 <div class="molstar-viewer">
   <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
   <style>
@@ -3148,4 +3156,3 @@ The irregular surfaces of proteins enable them to bind specific ligands and asso
         });
     </script>
 </div>
-{% endraw %}

@@ -19,7 +19,6 @@ Motifs often provide a stable local arrangement that can be reused as a building
 * **Helix-turn-helix:** where two α-helices are linked by a flexible loop.
 * **Greek Key:** a specific topology of four antiparallel β-strands.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -1244,7 +1243,6 @@ Motifs often provide a stable local arrangement that can be reused as a building
         });
     </script>
 </div>
-{% endraw %}
 
 ## **Domains: modular functional units**
 
@@ -1256,7 +1254,6 @@ Domains are modular and can be mixed and matched during evolution to create prot
 
 Most domains consist of a continuous stretch of amino acid sequence: residues 1-100 might comprise domain 1, while residues 101-250 form domain 2. However, some domains are discontinuous. In these cases, the sequence of one domain is interrupted by the insertion of another domain, which is then resumed. In three-dimensional space, these interrupted segments come together to form a coherent structural unit.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -4124,7 +4121,6 @@ Most domains consist of a continuous stretch of amino acid sequence: residues 1-
         });
     </script>
 </div>
-{% endraw %}
 
 A critical principle is that protein structure is significantly more conserved than protein sequence over evolutionary time. Protein evolution selects sequences which maintain the structure of a domain required to support its function. As a result, many protein domains form closely related structures.
 
@@ -4136,7 +4132,6 @@ It is useful to group domain folds into three broad classes, based on the predom
 
 * All-α domains: These domains have a core built exclusively of α-helices. Many of these folds are small and form simple bundles where helices run in an up-and-down fashion.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -5630,11 +5625,9 @@ It is useful to group domain folds into three broad classes, based on the predom
         });
     </script>
 </div>
-{% endraw %}
 
 * All-β domains: Characterised by a core composed of β-sheets, often with two sheets packed against each other. Recurring motifs, such as the Greek key motif, are frequently identified in this class.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -7021,11 +7014,9 @@ It is useful to group domain folds into three broad classes, based on the predom
         });
     </script>
 </div>
-{% endraw %}
 
 * α/β domains: Formed from a combination of β-α-β motifs, these domains predominantly feature a parallel β-sheet surrounded by amphipathic α-helices. Their secondary structures are typically arranged in layers or barrels.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -8420,11 +8411,9 @@ It is useful to group domain folds into three broad classes, based on the predom
         });
     </script>
 </div>
-{% endraw %}
 
 Domain structure is often tightly coupled to protein function through the constrained evolution of functional motifs. However, some ancient proteins have maintained stable global structure while evolving highly divergent functional roles mediated by local structural diversity.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -11412,4 +11401,3 @@ Domain structure is often tightly coupled to protein function through the constr
         });
     </script>
 </div>
-{% endraw %}

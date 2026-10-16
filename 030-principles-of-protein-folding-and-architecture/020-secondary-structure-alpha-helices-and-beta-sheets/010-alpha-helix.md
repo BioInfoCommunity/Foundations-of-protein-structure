@@ -11,14 +11,18 @@ An α-helix forms when the polypeptide backbone coils into a right-handed spiral
 
 The helical geometry places all side chains projecting outward from the central axis, much like the bristles on a bottle brush. This arrangement minimises steric clashes between bulky side chains while allowing the backbone to maintain its favourable hydrogen bonding. The rise per residue along the helical axis is only 1.5 Å, making α-helices remarkably compact structures. A 20-residue helix spans approximately 30 Å, exactly the thickness of a lipid bilayer membrane, which is why transmembrane proteins often use α-helices to span membranes.
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-10.png)
-
-There are 3.6 residues per turn in an alpha helix, which corresponds to 5.4 Å (1.5 Å per residue).
-{: .figure-caption}
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-10.png"
+       alt=""
+       width="700"
+       height="700"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">There are 3.6 residues per turn in an alpha helix, which corresponds
+to 5.4 Å (1.5 Å per residue).</figcaption>
 
 ​​Not all amino acids are equally compatible with helical structure. Alanine, glutamate, leucine, methionine, arginine, and lysine are particularly well-suited for helices due to their backbone angles and side chain properties. In contrast, proline is strongly helix-breaking: its unusual structure, where the side chain bonds back to the backbone nitrogen, prevents the nitrogen from donating a hydrogen bond. When proline appears in the middle of what would otherwise be a helix, it creates a kink or break. For this reason, proline often appears at helix termini or in loops between secondary structures rather than within helices. Glycine, being the most flexible amino acid, is also disfavoured in helices because it pays an entropic cost to adopt the restricted helical conformation.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -1722,11 +1726,15 @@ There are 3.6 residues per turn in an alpha helix, which corresponds to 5.4 Å (
         });
     </script>
 </div>
-{% endraw %}
 
 Alpha helices can be right-handed (clockwise spiral staircase) or left-handed (counterclockwise), but because all amino acids except glycine in proteins have the L-configuration, steric constraints favour the right-handed helix ([L. Pauling,R.B. Corey, & H.R. Branson, 1951](https://doi.org/10.1073/pnas.37.4.205)).
 
-![](https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-11.png)
-
-For a right-handed helix (right), the ribbon curls in the direction of the right hand’s fingers when the thumb points along the axis of growth; conversely, a left-handed helix (left) follows the curl of the left hand. While both are geometrically possible, the right-handed alpha-helix is the standard conformation in functional proteins due to the reduced steric interference between side chains and the peptide backbone.
-{: .figure-caption}
+<div style="max-width: 850px; margin: 0 auto; text-align: center;">
+  <img loading="lazy" decoding="async" src="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/wp-content/uploads/sites/311/2026/02/image-11.png"
+       alt=""
+       width="400"
+       height="400"
+       style="display: block; margin-left: auto; margin-right: auto;">
+</div>
+<figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">For a right-handed helix (right), the ribbon curls in the direction of the right hand&#8217;s fingers when the thumb points along the axis of growth; conversely, a left-handed helix (left) follows the curl of the left hand. While both are geometrically possible, the right-handed alpha-helix is the standard conformation in functional proteins due to the reduced steric interference between side chains and the peptide backbone.
+</figcaption>

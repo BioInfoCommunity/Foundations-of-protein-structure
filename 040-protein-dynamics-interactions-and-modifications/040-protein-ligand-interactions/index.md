@@ -23,7 +23,6 @@ An elegant demonstration of this principle comes from **inert mutants**, enzymes
 
 Many enzymes undergo substantial conformational changes upon substrate binding. For example, phosphoglycerate kinase undergoes a dramatic domain closure that brings catalytic residues into proper alignment only after substrate binds, ensuring that catalysis occurs only when substrate is present.
 
-{% raw %}
 <div class="molstar-viewer">
     <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
     <style>
@@ -4311,4 +4310,3 @@ Many enzymes undergo substantial conformational changes upon substrate binding. 
         });
     </script>
 </div>
-{% endraw %}

@@ -11,7 +11,6 @@ Each individual β-strand adopts an extended conformation quite different from t
 
 β-sheets can be arranged in two different orientations.  These strands can run in the same direction (parallel) or in opposite directions (antiparallel), with the latter forming stronger, more linear hydrogen bonds. This structure can be thought of as a thread that is woven up and down through the fabric, offering strong interactions found at the core of many proteins. Side chains appear on the top or bottom of the structure in an alternating fashion, which can provide charge or hydrophobicity on one or both faces.
 
-{% raw %}
 <div class="molstar-viewer">
   <link rel="stylesheet" type="text/css" href="https://molstar.org/viewer/molstar.css" />
   <style>
@@ -2450,4 +2449,3 @@ Each individual β-strand adopts an extended conformation quite different from t
         });
     </script>
 </div>
-{% endraw %}
