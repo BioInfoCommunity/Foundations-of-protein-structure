@@ -7,7 +7,7 @@
 	
 	
 	<title>Foundations of protein structure | EMBL-EBI Training</title>
-	<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.25/css/styles.css" type="text/css">
+	<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.26/css/styles.css" type="text/css">
 
 	<link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css"
 		media="all" />
@@ -46,6 +46,17 @@
 			margin-left: 5px;
 			margin-right: 5px;
 			display: table-cell;
+		}
+
+		/* Same spacing between paragraphs, lists and headings as the WordPress course pages
+		   (the course landing page keeps the default spacing, as on the original) */
+		.acc:not(.acc--landing) {
+			--vf-stack-margin: 2rem;
+		}
+
+		.acc .vf-box {
+			--vf-stack-margin: 0;
+			border-width: 1px;
 		}
 	</style>
 </head>
@@ -686,18 +697,9 @@
 
 <p>However, structure is more conserved than sequence. Proteins with as little as 15% sequence identity can have nearly identical folds. And we will explore this later.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Working with protein sequences: Practical tools</strong> As a researcher working with proteins, you will frequently need to find, analyse, and interpret protein sequences.  Protein sequence databases: – <a href="https://www.uniprot.org/">UniProt</a>: The Universal Protein Resource – <a href="https://www.ncbi.nlm.nih.gov/protein/">NCBI Protein:</a> Part of GenBank; contains sequences linked to genomic data – <a href="https://www.ebi.ac.uk/pdbe/">PDB (Protein Data Bank)</a>: Contains 3D structures; also includes sequences and annotations at the sequence level. – <a href="https://www.ebi.ac.uk/interpro/">InterPro</a>: The protein sequence classification resource</td>
-    </tr>
-  </tbody>
-</table>
+<div class="vf-box vf-box--outline">
+<p><strong>Working with protein sequences: Practical tools </strong><br />As a researcher working with proteins, you will frequently need to find, analyse, and interpret protein sequences.<br /><br />Protein sequence databases:<br />&#8211; <a href="https://www.uniprot.org/" data-type="link" data-id="https://www.uniprot.org/">UniProt</a>: The Universal Protein Resource<br />&#8211;<a href="https://www.ncbi.nlm.nih.gov/protein/" data-type="link" data-id="https://www.ncbi.nlm.nih.gov/protein/"> NCBI Protein:</a> Part of GenBank; contains sequences linked to genomic data<br />&#8211; <a href="https://www.ebi.ac.uk/pdbe/" data-type="link" data-id="https://www.ebi.ac.uk/pdbe/">PDB (Protein Data Bank)</a>: Contains 3D structures; also includes sequences and annotations at the sequence level.<br />&#8211; <a href="https://www.ebi.ac.uk/interpro/" data-type="link" data-id="https://www.ebi.ac.uk/interpro/">InterPro</a>: The protein sequence classification resource</p>
+</div>
 
 
 												<!-- Navigation Links for Next/Previous Pages -->
@@ -892,7 +894,7 @@
 				</div>
 		</div>
 		</main>
-		<script src="https://assets.emblstatic.net/vf/v2.5.25/scripts/scripts.js"></script>
+		<script src="https://assets.emblstatic.net/vf/v2.5.26/scripts/scripts.js"></script>
 	</div>
 
 	</div>
