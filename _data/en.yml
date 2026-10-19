@@ -20,16 +20,22 @@ labels:
   written_by_name:
     - name: "Kristina Gagalova"
       profile_url: null
+      orcid: "https://orcid.org/0000-0002-5975-0805"
     - name: "Michael Healy"
       profile_url: null
+      orcid: "https://orcid.org/0000-0003-2924-9179"
     - name: "Paulyna Gabriela Magana Gomez"
       profile_url: null
+      orcid: "https://orcid.org/0009-0004-1524-2966"
     - name: "Thomas Litfin"
       profile_url: null
+      orcid: "https://orcid.org/0000-0002-4863-3865"
     - name: "Ove Johan Ragnar Gustafsson"
       profile_url: null
+      orcid: "https://orcid.org/0000-0002-2977-5032"
     - name: "Kate Michie"
       profile_url: null
+      orcid: "https://orcid.org/0000-0002-2133-2237"
   translated_by_text: null
   translated_by_name:
     - name: null
