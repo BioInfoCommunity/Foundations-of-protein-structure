@@ -69,3 +69,5 @@ Importantly, these properties are not mutually exclusive, and individual amino a
        style="display: block; margin-left: auto; margin-right: auto;">
 </div>
 <figcaption style="text-align: center; color: #54585a; margin-top: 0px; margin-left:20px; margin-right:20px; font-size: 16px; margin-block-start: 0.5em !important; margin-block-end: 1.5em !important;">This Venn diagram demonstrates that the physicochemical categories used to group amino acids are not mutually exclusive, as many amino acids possess multiple distinct properties simultaneously.</figcaption>
+
+<p><a class="vf-button vf-button--secondary vf-button--sm" href="https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/fundamentals-of-protein-composition/the-building-blocks-amino-acids/general-structure/">Take the quiz on EMBL-EBI Training</a></p>
