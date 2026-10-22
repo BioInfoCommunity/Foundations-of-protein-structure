@@ -5,6 +5,8 @@ course:
   slug: "Foundations-of-protein-structure" # should match repo name for GitHub Pages and should be english for consistency across languages
   image: "//trainingcontent.embl.org/sites/default/files/book-images/Screenshot%202026-02-26%20at%2015.19.41.png"
   training_url: "https://www.ebi.ac.uk/training/online/courses/foundations-protein-structure/" # original course on EMBL-EBI Training, used by the "Back to EMBL-EBI Training" link
+  space_url: "https://www.bioinfotraining-community.org/spaces/alphafold/" # community space, linked next to the hero kicker
+  space_text: "AlphaFold & structural biology"
 
 languages:
   - code: en
